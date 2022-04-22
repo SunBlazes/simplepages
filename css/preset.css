@@ -1,0 +1,57 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	font-size: 12px;
+}
+li{
+	list-style: none;
+}
+.clearfix{
+	content: '';
+	clear: both;
+	display: block;
+	/* height: 100%; */
+}
+a{
+	text-decoration: none;
+}
+button{
+	cursor: pointer;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../src/iconfont/iconfont.eot');
+  src: url('../src/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../src/iconfont/iconfont.woff2') format('woff2'),
+      url('../src/iconfont/iconfont.woff') format('woff'),
+      url('../src/iconfont/iconfont.ttf') format('truetype'),
+      url('../src/iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 23px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	vertical-align: -8%;
+	transition: transform 1s ease;
+}
+.il{
+	display: inline-block;
+}
+button{
+	outline: none;
+}

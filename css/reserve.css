@@ -1,0 +1,135 @@
+#main{
+	background-image: none;
+	background-color: #f1f1f0;
+	height: 100%;
+	position: relative;
+}
+#header_supp{
+	z-index: 999;
+}
+#reserve_panel{
+	position: absolute;
+	bottom: 0;
+	height: calc(100% - 90px);
+	width: 100%;
+}
+#left_panel{
+	width: 40%;
+	height: 100%;
+	float: left;
+	padding-top: 5%;
+	box-sizing: border-box;
+	color: #75787b;
+}
+#right_panel{
+	width: 60%;
+	height: 100%;
+	float: right;
+	padding-top: 6%;
+	box-sizing: border-box;
+	color: #75787b;
+	position: relative;
+}
+#right_panel form{
+	width: 90%;
+	height: 100%;
+}
+.left_header{
+	margin-left: 20%;
+	font-size: 20px;
+	font-weight: 100;
+}
+#left_panel p{
+	margin-left: 20%;
+	font-size: 14px;
+	font-weight: 400;
+}
+input[type=text]{
+	border: none;
+	background-color: inherit;
+	border-bottom: 1px solid rgba(0,0,0,.5);
+	padding-bottom: 15px;
+	outline: none;
+	font-size: 15px;
+	width: calc(38%);
+}
+.name{
+	width: 100%;
+	height: 17%;
+}
+.email{
+	width: 100%;
+	height: 17%;
+}
+.email button{
+	background-color: transparent;
+	border: 1px solid #75787b;
+	color: inherit;
+	padding: 10px;
+	font-size: 15px;
+	margin-left: 50px;
+}
+.code{
+	width: 100%;
+	position: relative;
+}
+.code .select{
+	color: #75787b;
+	font-size: 17px;
+	margin-left: 50px;
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 10%;
+	z-index: 999;
+}
+.code .select span{
+	background-color: #dcdcdc;
+	display: block;
+	padding: 10px 15%;
+}
+.code .select ul{
+	display: none;
+}
+.se_tag{
+	position: absolute;
+	top: 9px;
+	right: 3px;
+	transform: rotate(90deg);
+	cursor: pointer;
+}
+.code .select ul li:hover span{
+	background-color: white;
+}
+.code .select ul li{
+	cursor: pointer;
+}
+.code .check{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	top: 0%;
+	border: 1px solid black;
+}
+.check_none{
+	display: none;
+}
+.code p{
+	margin-top: 30px;
+	font-size: 14px;
+}
+form input[type=submit]{
+	border:none;
+	background-color: #a7a8aa;
+	color: white;
+	width: 20%;
+	height: 7%;
+	font-size: 18px;
+	position: absolute;
+	bottom: 5%;
+}

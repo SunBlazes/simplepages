@@ -1,0 +1,10 @@
+[
+	{
+		"name":"main_display",
+		"loca":"../src/imgs/main_display.jpg"
+	},
+	{
+		"name":"main_display2",
+		"loca":"../src/imgs/main_display2.jpg"
+	}
+]

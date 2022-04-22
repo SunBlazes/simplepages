@@ -1,0 +1,12 @@
+$(function(){
+	$.ajax({
+		dataType:'json',
+		url:'../php/main_display.php',
+		data:{},
+		type:'get'
+	}).done(function(data){
+		window.images=data;
+	}).fail(function(){
+		console.log('error');
+	})
+})
